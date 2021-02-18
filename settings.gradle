@@ -1,3 +1,4 @@
+include ':p0071layoutprop'
 include ':p0061layouts'
 include ':p0051_LayoutFiles'
 include ':p0041basicviews'

@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/p0041basicviews" />
             <option value="$PROJECT_DIR$/p0051_LayoutFiles" />
             <option value="$PROJECT_DIR$/p0061layouts" />
+            <option value="$PROJECT_DIR$/p0071layoutprop" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
