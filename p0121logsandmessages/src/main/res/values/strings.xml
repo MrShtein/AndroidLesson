@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LogsAndMessages</string>
+    <string name="tvOutOk">Нажата кнопка OK</string>
+    <string name="tvOutCan">Нажата кнопка Cancel</string>
+
+</resources>
