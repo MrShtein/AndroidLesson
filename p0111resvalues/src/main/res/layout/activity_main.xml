@@ -4,27 +4,29 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
-        android:layout_width="match_parent"
         android:id="@+id/llTop"
-        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:layout_height="match_parent">
+        android:background="@color/llTopColor"
+        android:orientation="vertical">
+
         <TextView
-            android:text="TextView"
+            android:id="@+id/tvTop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/tvTop"
-            android:layout_marginTop="30dp">
-        </TextView>
+            android:layout_marginTop="30dp"
+            android:text="@string/btnTopText" />
+
         <Button
-            android:text="Button"
+            android:id="@+id/btnTop"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/btnTop"
-            android:layout_width="wrap_content">
-        </Button>
+            android:text="@string/btnTopText" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
