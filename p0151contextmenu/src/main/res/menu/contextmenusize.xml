@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/sizeTo22"
+            android:title="Размер текста = 22sp">
+        </item>
+        <item
+            android:id="@+id/sizeTo24"
+            android:title="Размер текста = 24sp">
+        </item>
+        <item
+            android:id="@+id/sizeTo26"
+            android:title="Размер текста = 26sp">
+        </item>
+</menu>
