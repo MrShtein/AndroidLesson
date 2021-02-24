@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(linearLayout, layoutParams);
 
         ViewGroup.LayoutParams lpParams =
-                new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+                new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         LinearLayout.LayoutParams btn1Params =
-                new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+                new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         btn1Params.leftMargin = 50;
 
         LinearLayout.LayoutParams btn2Params =
-                new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+                new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         btn2Params.gravity = Gravity.RIGHT;
 
         TextView tv = new TextView(this);
@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
         linearLayout.addView(btn, lpParams);
 
         Button btn1 = new Button(this);
-        btn.setText("Button1");
+        btn1.setText("Button1");
         linearLayout.addView(btn1, btn1Params);
 
         Button btn2 = new Button(this);
-        btn.setText("Button2");
+        btn2.setText("Button2");
         linearLayout.addView(btn2, btn2Params);
 
 
