@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "MainActivity: onCreate()");
+        Log.d(TAG, "Main Activity: onCreate()");
 
         btn = findViewById(R.id.btnActTwo);
         btn.setOnClickListener(this);
@@ -44,24 +44,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     protected void onResume() {
         super.onResume();
-        Log.d(TAG, "MainActivity: onResume()");
+        Log.d(TAG, "Main Activity: onResume()");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG, "MainActivity: onPause()");
+        Log.d(TAG, "Main Activity: onPause()");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(TAG, "MainActivity: onStop()");
+        Log.d(TAG, "Main Activity: onStop()");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(TAG, "MainActivity: onDestroy()");
+        Log.d(TAG, "Main Activity: onDestroy()");
     }
 }
